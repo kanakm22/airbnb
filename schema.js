@@ -1,4 +1,5 @@
 const Joi = require('joi');
+// joi user for validation of individual fields 
 
 module.exports.listingSchema = Joi.object({
     listing: Joi.object ({
