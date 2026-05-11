@@ -17,6 +17,7 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
 // const user = require('./models/user.js');
+const ExpressError = require("./utils/ExpressError.js");
 
 const listingRouter = require("./routes/listing.js");
 const reviewRouter = require("./routes/review.js");
@@ -55,9 +56,9 @@ const sessionOptions = {
     }
 }
 
-app.get("/", (req, res) => {
-    res.send("Hii, I am root.");
-})
+// app.get("/", (req, res) => {
+//     res.send("Hii, I am root.");
+// })
 
 // MIDDLEWARES
 app.use(session(sessionOptions));
