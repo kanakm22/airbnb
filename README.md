@@ -1,8 +1,8 @@
-#WanderSphere – Rental Booking Platform
+# WanderSphere – Rental Booking Platform
 
 A full-stack rental booking web application where users can explore listings, create bookings, upload property images, and leave reviews.
 
-#🚀 Features
+# 🚀 Features
 User Authentication & Authorization
 Create, Edit & Delete Listings
 Review & Rating System
@@ -12,13 +12,14 @@ Interactive Maps with Mapbox
 Image Upload using Cloudinary
 Centralized Error Handling
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript, EJS, Bootstrap
 Backend: Node.js, Express.js
 Database: MongoDB, Mongoose
 Tools & Services: Passport.js, Cloudinary, Mapbox, Render
 
-#📂Project Structure
+# 📂Project Structure
+```
 WANDERSPHERE
 │
 ├── controllers
@@ -81,31 +82,32 @@ WANDERSPHERE
 ├── middleware.js
 ├── package.json
 └── README.md
+```
 
-#🔐 Authentication & Authorization
+# 🔐 Authentication & Authorization
 Implemented using Passport.js
 Secure login/signup functionality
 Protected routes for authorized users only
 Ownership checks for listings and reviews
 
-#☁️ Cloudinary Integration
+# ☁️ Cloudinary Integration
 Used Cloudinary for image uploads and storage
 Optimized media delivery for listing images
 
-#🗺️ Mapbox Integration
+# 🗺️ Mapbox Integration
 Integrated Mapbox for interactive maps
 Used Mapbox Geocoding API to convert location names into coordinates
 Displayed listing locations dynamically on maps
 
-#🚨 Error Handling
+# 🚨 Error Handling
 Centralized error handling middleware
 Custom ExpressError utility
 Async error handling using wrapAsync
 
-#🚀 Deployment
+# 🚀 Deployment
 Deployed on Render
 
-#📚 Future Improvements
+# 📚 Future Improvements
 Wishlist/Favorites Feature
 Payment Gateway Integration
 Advanced Search & Filters
